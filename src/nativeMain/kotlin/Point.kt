@@ -10,5 +10,5 @@ class Point(var x:String, var y:String) {
         return true
     }
 
-
+    override fun hashCode(): Int = x.hashCode()
 }
