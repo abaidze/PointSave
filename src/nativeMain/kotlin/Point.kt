@@ -8,6 +8,8 @@ class Point(var x:String, var y:String) {
         if (other !is Point) return false
         if (x != other.x || y != other.y) return false
         return true
+
+
     }
 
 
